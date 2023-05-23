@@ -1,5 +1,5 @@
 # base image
-FROM node:16.20
+FROM node:20.0-bullseye-slim
 
 # user instruction
 RUN apt-get install -y imagemagick
